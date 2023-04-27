@@ -1,2 +1,10 @@
-# MediCare
-During my internship in Hackveda.ltd, I had designed and developed a doctor's appointment page for a medical facility using a range of web development tools.I used figma to create a visual prototype of the website. Next, I used HTML, CSS and Javascript to develop the frontend of the website, then used PHP for the backend part. 
+
+  # VsMediCure
+
+  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">node js</a></code>
+
+  To preview and run the project on your device:
+  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+  2) In the terminal, run `npm install`
+  3) Run `npm start` to view project in browser
+  

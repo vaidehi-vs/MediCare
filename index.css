@@ -1,0 +1,519 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.logosectionbg,
+.menusection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 599px;
+  height: 42px;
+}
+.logosectionbg {
+  width: 121.16px;
+}
+.medicure {
+  position: absolute;
+  top: 9.08px;
+  left: 13.57px;
+  font-size: var(--font-size-lg);
+  font-weight: 800;
+  font-family: var(--font-murecho);
+  color: var(--color-royalblue-100);
+  text-align: left;
+  display: inline-block;
+  width: 107.59px;
+  height: 28.38px;
+}
+.buttonsection,
+.logosection {
+  position: absolute;
+  top: 0;
+  left: 32.95px;
+  width: 121.16px;
+  height: 42px;
+}
+.buttonsection {
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 321.79px;
+}
+.about-us,
+.home,
+.services {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 13.62px;
+  left: 5.82px;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-murecho);
+  color: var(--color-royalblue-100);
+  text-align: left;
+  display: inline-block;
+  width: 52.34px;
+  height: 28.38px;
+}
+.about-us,
+.services {
+  left: 63.97px;
+  width: 63.97px;
+}
+.services {
+  left: 133.76px;
+  width: 72.69px;
+}
+.get-started,
+.getstartedbtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.getstartedbtn {
+  border-radius: 40px;
+  background-color: #4774e7;
+  width: 105.65px;
+  height: 28.38px;
+}
+.get-started {
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  font-family: var(--font-murecho);
+  color: #f2e5e5;
+  text-align: left;
+  width: 92.08px;
+  height: 23.84px;
+}
+.getstartedbuttonsection {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 9.08px;
+  left: 206.45px;
+  width: 105.65px;
+  height: 28.38px;
+}
+.menubtnsection,
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 277.21px;
+  width: 321.79px;
+  height: 42px;
+}
+.navbar {
+  top: 5px;
+  left: -5px;
+  width: 599px;
+}
+.bannersectionbackground,
+.formareabg,
+.inputareabg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lightskyblue);
+  width: 594px;
+  height: 253px;
+}
+.formareabg,
+.inputareabg {
+  width: 278.74px;
+  height: 245px;
+}
+.inputareabg {
+  border-radius: 20px;
+  background-color: var(--color-white);
+  width: 251.06px;
+  height: 43.58px;
+}
+.inputfindarea,
+.inputfinddoctor {
+  border: 0;
+  font-weight: 100;
+  font-family: var(--font-murecho);
+  font-size: var(--font-size-xs);
+  background-color: transparent;
+  position: absolute;
+  height: 62.9%;
+  width: 33.11%;
+  top: 18.2%;
+  right: 61.19%;
+  bottom: 18.9%;
+  left: 5.7%;
+}
+.inputfindarea {
+  height: 63.68%;
+  width: 39.16%;
+  right: 18.89%;
+  bottom: 18.12%;
+  left: 41.94%;
+}
+.search-child {
+  position: absolute;
+  top: -1px;
+  left: -5px;
+  width: 38.83px;
+  height: 35px;
+}
+.ok {
+  top: 3px;
+  left: 6.73px;
+  font-size: var(--font-size-xs);
+  font-weight: 900;
+  font-family: var(--font-murecho);
+  color: #f1f4ff;
+  text-align: left;
+  display: inline-block;
+  width: 22.11px;
+}
+.form,
+.ok,
+.search {
+  position: absolute;
+}
+.search {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 6.93px;
+  left: 208.71px;
+  width: 28.83px;
+  height: 25px;
+}
+.form {
+  top: 151.07px;
+  left: 20.05px;
+  width: 251.06px;
+  height: 43.58px;
+}
+.wellness-for-your {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  display: inline-block;
+  width: 251px;
+  height: 19px;
+}
+.have-access-to {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.have-access-to-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: #256b9d;
+  display: inline-block;
+  width: 266px;
+  height: 51px;
+}
+.book-and-appointment {
+  position: absolute;
+  top: 109px;
+  left: 4px;
+  font-size: var(--font-size-xs);
+  font-weight: 100;
+  color: var(--color-black);
+  display: inline-block;
+  width: 150px;
+  height: 22px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+}
+.formareadesc {
+  position: absolute;
+  top: 9px;
+  left: 7.35px;
+  width: 266px;
+  height: 131px;
+}
+.formareasection,
+.imagearea-icon {
+  position: absolute;
+  top: 8px;
+  left: 8.65px;
+  width: 278.74px;
+  height: 245px;
+}
+.imagearea-icon {
+  top: 0;
+  left: 283px;
+  width: 305px;
+  height: 253px;
+  object-fit: cover;
+}
+.bannersection,
+.servicesectionbg {
+  position: absolute;
+  left: 0;
+  width: 594px;
+}
+.bannersection {
+  top: 42px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 253px;
+  color: #081c2b;
+}
+.servicesectionbg {
+  top: 0;
+  background-color: var(--color-white);
+  box-shadow: 15px 15px 4px rgba(0, 0, 0, 0.25);
+  height: 141px;
+}
+.consultations {
+  position:relative;
+ 
+  top: 49px;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 900;
+  font-family: var(--font-murecho);
+  color: var(--color-black);
+  white-space: pre-wrap;
+  text-align: left;
+  display: inline-block;
+  width: 115px;
+  height: 18px;
+}
+.icons8-magnifying-glass-64-5 {
+  position:relative;
+  float: right;
+  height: 86.57%;
+  width: 45.97%;
+  top: 0;
+  right: 16.77%;
+  bottom: 13.43%;
+  left: 37.26%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.consultation {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position:relative; focus : right;
+  top: 46px;
+  left: 431px;
+  width: 115px;
+  height: 67px;
+}
+.get-appointment {
+  position:relative;
+ 
+  top: 49px;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 900;
+  font-family: var(--font-murecho);
+  color: var(--color-black);
+  
+  width: 131.68px;
+  height: 17px;
+}
+.external-appointment-dentist-icon {
+  position: absolute;
+  height: 95.45%;
+  width: 50.05%;
+  top: 0;
+  right: 21.48%;
+  bottom: 4.55%;
+  left: 28.47%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.getappointment {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 46px;
+  left: 223.95px;
+  width: 131.68px;
+  height: 66px;
+}
+.search-doctor {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 900;
+  font-family: var(--font-murecho);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 119.18px;
+  height: 29px;
+}
+.icons8-magnifying-glass-64-1 {
+  position: absolute;
+  height: 80.77%;
+  width: 60.13%;
+  top: 0;
+  right: 18.09%;
+  bottom: 19.23%;
+  left: 21.77%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.searchdoctor {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 46px;
+  left: 27.87px;
+  width: 119.18px;
+  height: 78px;
+}
+.find-your-appointment {
+  position: absolute;
+  top: 7px;
+  left: 174.93px;
+  font-weight: 900;
+  display: inline-block;
+  width: 270.09px;
+  height: 27px;
+}
+.servicesection {
+  position: relative;
+  float:right;
+  top: 296px;
+  left: 0;
+  width: 594px;
+  height: 141px;
+  font-size: var(--font-size-lg);
+}
+.descriptionsection,
+.textcontextarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 594px;
+  height: 172px;
+}
+.textcontextarea {
+  background-color: var(--color-lightskyblue);
+  width: 297px;
+}
+.txtboxtitle {
+  top: 16.32px;
+  left: 17.3px;
+  font-weight: 900;
+  width: 227.8px;
+  height: 26.51px;
+}
+.point3,
+.textdescription,
+.txtboxtitle {
+  position: absolute;
+  display: inline-block;
+}
+.textdescription {
+  top: 53px;
+  left: 16.34px;
+  font-size: 10px;
+  width: 227.8px;
+  height: 33px;
+}
+.point3 {
+  top: 17px;
+  left: 0;
+  width: 183.58px;
+  height: 9.87px;
+}
+.p {
+  margin: 0;
+}
+.point2 {
+  top: 0;
+  left: 0;
+  display: inline-block;
+  white-space: pre-wrap;
+  width: 183.58px;
+  height: 9.87px;
+}
+.point1,
+.point2,
+.points {
+  position: absolute;
+}
+.point1 {
+  top: -26.79px;
+  left: -2.88px;
+  display: none;
+  white-space: pre-wrap;
+  width: 273.93px;
+  height: 19px;
+}
+.points {
+  top: 123.79px;
+  left: 18.26px;
+  width: 183.58px;
+  height: 26.86px;
+  font-size: var(--font-size-3xs);
+}
+.textarea {
+  position: absolute;
+  top: 0;
+  left: 297px;
+  width: 297px;
+  height: 172px;
+}
+.description,
+.imagearea-icon1 {
+  position: absolute;
+  left: 0;
+  height: 172px;
+}
+.imagearea-icon1 {
+  top: 0;
+  width: 297px;
+  object-fit: cover;
+}
+.description {
+  top: 447px;
+  width: 594px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.email-wwwhackvedain {
+  position: absolute;
+  top: 643px;
+  left: 0;
+  font-weight: 300;
+  display: inline-block;
+  width: 126px;
+  height: 22px;
+}
+.index1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 674px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+  font-family: var(--font-murecho);
+}
